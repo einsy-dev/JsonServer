@@ -21,14 +21,14 @@
     "StringFileInfo": {
         "Comments": "",
         "CompanyName": "@einsy.dev",
-        "FileDescription": "Local JSON server",
+        "FileDescription": "Local Server",
         "FileVersion": "",
         "InternalName": "jsonServer",
         "LegalCopyright": "",
         "LegalTrademarks": "",
-        "OriginalFilename": "",
+        "OriginalFilename": "jsonServer",
         "PrivateBuild": "",
-        "ProductName": "",
+        "ProductName": "jsonServer",
         "ProductVersion": "v1.0.0.0",
         "SpecialBuild": ""
     },

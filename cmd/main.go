@@ -6,13 +6,18 @@ import (
 	"net/http"
 )
 
+var data map[string]string = make(map[string]string)
+
+func ClearServer() {
+	data = make(map[string]string)
+}
+
 func main() {
-	go server()
+	go server(&data)
 	SysTray()
 }
 
-func server() {
-	var data map[string]string = make(map[string]string)
+func server(data *map[string]string) {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		setHeaders(w)
 		switch r.Method {
