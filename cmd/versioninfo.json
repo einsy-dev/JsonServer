@@ -20,10 +20,10 @@
     },
     "StringFileInfo": {
         "Comments": "",
-        "CompanyName": "",
-        "FileDescription": "",
+        "CompanyName": "@einsy.dev",
+        "FileDescription": "Local JSON server",
         "FileVersion": "",
-        "InternalName": "",
+        "InternalName": "jsonServer",
         "LegalCopyright": "",
         "LegalTrademarks": "",
         "OriginalFilename": "",
