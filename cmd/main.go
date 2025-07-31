@@ -29,6 +29,7 @@ func server(data *map[string]interface{}) {
 			}
 			w.Write([]byte(d))
 		case "POST":
+			ClearServer()
 			if err := json.NewDecoder(r.Body).Decode(&data); err != nil {
 				http.Error(w, err.Error(), http.StatusBadRequest)
 				return
